@@ -1,0 +1,22 @@
+{
+  "name": "pull-swagger-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "pullswagger": "./index.js"
+  },
+  "files": [
+    "gencode.js",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "swagger-codegen-ts": "^0.14.1"
+  }
+}
